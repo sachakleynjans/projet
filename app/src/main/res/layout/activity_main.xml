@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="169dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score1"
+            android:textSize="45sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="But"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but1"
+            android:layout_below="@+id/score1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp" />
+
+        <TextView
+            android:text="Equipe 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team1"
+            android:layout_marginBottom="47dp"
+            android:textSize="18sp"
+            android:layout_above="@+id/score1"
+            android:layout_alignLeft="@+id/score1"
+            android:layout_alignStart="@+id/score1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="34dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="-"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="45sp" />
+
+        <Button
+            android:text="But"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but2"
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/score2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Equipe 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team2"
+            android:layout_marginBottom="45dp"
+            android:textSize="18sp"
+            android:layout_above="@+id/score2"
+            android:layout_alignRight="@+id/score2"
+            android:layout_alignEnd="@+id/score2" />
+
+    </RelativeLayout>
+
+</LinearLayout>
